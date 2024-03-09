@@ -1,0 +1,221 @@
+
+body {
+  background-color: black;
+}
+/* CAJA CENTRAL*/
+.container {
+  display: flex;
+  width: 875px;
+  height: 589px;
+  background-color: rgb(237, 237, 237);
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  position:absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.superior {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 28.3%;
+  background-color: rgb(237, 237, 237);
+  text-align: center;
+  line-height: 50px;
+}
+
+.inferior {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 71.7%;
+  background-color: rgb(237, 237, 237);
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+
+}
+
+/* /////// CAJAS DE LA CABECERA ////////*/
+
+.title{
+  position:absolute;
+  background-color: rgb(237, 237, 237);
+  width: 542px;
+  height: 57.3%;
+  right: 50%;
+  border-bottom: 5px solid rgb(237, 178, 59);
+  transform: translate(50%);
+}
+
+.title-tex{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+  font-size: 35px;
+  position: relative;
+  margin: 0;
+  top: 50%;
+  transform: translate(0%, -50%);
+  color: rgb(51, 49, 50);
+  line-height: 1.2;
+}
+
+.subtitle{
+  position:absolute;
+  background-color: rgb(237, 237, 237);
+  width: 542px;
+  height: 40.5%;
+  right: 50%;
+  bottom: 0;
+  transform: translate(50%);
+}
+
+.title_header{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+  font-size: 35px;
+  position: relative;
+  margin: 0;
+  top: 50%;
+  transform: translate(0%, -60%);
+  color: rgb(45, 80, 108);
+}
+
+.subt-tex{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+  font-size: 35px;
+  position: relative;
+  margin: 0;
+  top: 50%;
+  transform: translate(0%, -60%);
+  color: rgb(45, 80, 108);
+}
+
+.logo{
+  position:absolute;
+  background-color: rgb(237, 237, 237);
+  width: 167px;
+  height: 100%;
+  left: 0;
+  display: inline-block;
+}
+
+.imagen{
+  position:absolute;
+  width: 112%;
+  height: 113%;
+  right: -25px;
+  top: 51%;
+  transform: translate(0%, -50%);
+}
+
+.ge2{
+  position:absolute;
+  background-color: rgb(237, 237, 237);  color: rgb(51, 49, 50);
+  width: 167px;
+  height: 100%;
+  right: 0;
+}
+
+.ge2-tex{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(237, 237, 237);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: -1px -1px 0 #005a9c,
+              1px -1px 0 #005a9c,
+              -1px 1px 0 #005a9c,
+              1px 1px 0 #005a9c;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1; 
+} 
+
+/* /////// CAJAS DE LOS CANDIDATOS ////////*/
+
+.cajas {
+  width: calc(84.5% - 15px);
+  height: 191px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 2px;
+  border: 2px solid rgb(0, 0, 0);
+  position: flex;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.num{
+  position:flex;
+  width: 50%;
+  height: 67%;
+  right: 0;
+}
+
+.num-vt{
+  margin: 0;
+  font-size: 105px;
+  bottom: 10px;
+  transform: translate(0%, 5%);
+  font-weight: 700;
+  color: rgb(51, 49, 50) ;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.foto{
+  position:flex;
+  width: 50%;
+  height: 67%;
+  left: 0;
+  transform: translate(100%, -100%);
+}
+
+.foto-img{
+  position:flex;
+  width: 112px;
+  height: 112px;
+  bottom: 10px;
+  transform: translate(-1%, 5%);
+}
+
+.name{
+  position:flex;
+  width: 100%;
+  height: 34%;
+  transform: translate(0%, -200%);
+}
+
+.name-vt {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 750;
+  font-size: 28px;
+  position: flex;
+  margin: 0;
+  transform: translate(0, -7%);
+  color: rgb(51, 49, 50);
+  line-height: 1.2;
+}
+
+.vt-blanco{
+  position: flex;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+
+.blanco-tex{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 750;
+  font-size: 30px;
+  position: relative;
+  margin: 0;
+  top: 50%;
+  transform: translate(0%, -50%); 
+  color: rgb(51, 49, 50);
+  line-height: 1.2;
+}
